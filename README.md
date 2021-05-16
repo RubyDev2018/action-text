@@ -4,9 +4,10 @@
 ```
 $ docker-compose build
 $ docker-compose run web rake db:create
-$ docker-compose up -d
 $ docker-compose run web rake db:migrate
+$ docker-compose up -d
 $ http://localhost:13000/posts
+
 ```
 
 
